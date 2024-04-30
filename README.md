@@ -6,7 +6,11 @@ First you need create the virtual env = optional.
 Secondly, install all libraries in your virtual env from requirements.txt with the below command.
 >> pip install -r requirements.txt
 
-Third, run the django server 
+Third, you need to create MySQL DB and put that Mysql credentials in settings.py 
+
+Fourth, run the django server 
 >> python3 manage.py runserver
 
-Fourth, access the server from browser
+Fifth, access the server from browser
+http://127.0.0.1:8000/
+
